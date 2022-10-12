@@ -231,8 +231,8 @@
 		AB28C85828F2E53900CC0E2F /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
-				AB28C85428F2D13200CC0E2F /* LandmarkDetail.swift */,
 				AB28C85228F2CC6500CC0E2F /* LandmarkList.swift */,
+				AB28C85428F2D13200CC0E2F /* LandmarkDetail.swift */,
 				AB28C85028F2C97600CC0E2F /* LandmarkRow.swift */,
 			);
 			path = Landmarks;
@@ -253,10 +253,10 @@
 			children = (
 				AB28C86528F32DA800CC0E2F /* Badge.swift */,
 				AB28C85D28F2EA2500CC0E2F /* BadgeBackground.swift */,
-				AB28C86128F32CBC00CC0E2F /* BadgeSymbol.swift */,
-				AB28C85B28F2E9C700CC0E2F /* HexagonParameters.swift */,
-				AB28C86328F32D4400CC0E2F /* RotatedBadgeSymbol.swift */,
 				ABE360F228F4314700BF3CDF /* HikeBadge.swift */,
+				AB28C86128F32CBC00CC0E2F /* BadgeSymbol.swift */,
+				AB28C86328F32D4400CC0E2F /* RotatedBadgeSymbol.swift */,
+				AB28C85B28F2E9C700CC0E2F /* HexagonParameters.swift */,
 			);
 			path = Badges;
 			sourceTree = "<group>";
@@ -264,9 +264,9 @@
 		ABB8C20028F57A34001C8C95 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				ABB8C20128F57A34001C8C95 /* CategoryItem.swift */,
 				ABB8C20228F57A34001C8C95 /* CategoryHome.swift */,
 				ABB8C20328F57A34001C8C95 /* CategoryRow.swift */,
+				ABB8C20128F57A34001C8C95 /* CategoryItem.swift */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -274,10 +274,10 @@
 		ABE360DB28F4151500BF3CDF /* Hikes */ = {
 			isa = PBXGroup;
 			children = (
-				ABE360DC28F4151500BF3CDF /* GraphCapsule.swift */,
+				ABE360DF28F4151500BF3CDF /* HikeView.swift */,
 				ABE360DE28F4151500BF3CDF /* HikeDetail.swift */,
 				ABE360DD28F4151500BF3CDF /* HikeGraph.swift */,
-				ABE360DF28F4151500BF3CDF /* HikeView.swift */,
+				ABE360DC28F4151500BF3CDF /* GraphCapsule.swift */,
 			);
 			path = Hikes;
 			sourceTree = "<group>";
@@ -295,9 +295,9 @@
 		ABE360F628F443EA00BF3CDF /* PageViews */ = {
 			isa = PBXGroup;
 			children = (
-				ABE360F928F4448E00BF3CDF /* PageViewController.swift */,
-				ABE360FB28F4465E00BF3CDF /* FeatureCard.swift */,
 				ABE360FD28F4475500BF3CDF /* PageView.swift */,
+				ABE360FB28F4465E00BF3CDF /* FeatureCard.swift */,
+				ABE360F928F4448E00BF3CDF /* PageViewController.swift */,
 				ABE360FF28F447F100BF3CDF /* PageControl.swift */,
 			);
 			path = PageViews;

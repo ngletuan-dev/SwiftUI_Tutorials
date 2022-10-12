@@ -8,8 +8,6 @@
 import SwiftUI
 
 struct LandmarkRow: View {
-    static var landmarks = ModelData().landmarks
-    
     var landmark: Landmark
 
     var body: some View {

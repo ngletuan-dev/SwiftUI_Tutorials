@@ -17,9 +17,15 @@ struct CategoryItem: View {
                 .resizable()
                 .frame(width: 155, height: 155)
                 .cornerRadius(5)
-            Text(landmark.name)
-                .foregroundColor(.primary)
+            HStack {
+                Text(landmark.name)
+                    .foregroundColor(.primary)
                 .font(.caption)
+                if landmark.isFavorite {
+                    Image(systemName: "star.fill")
+                        .foregroundColor(.yellow)
+                }
+            }
         }
         .padding(.leading, 15)
     }
